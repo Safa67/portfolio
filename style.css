@@ -1,0 +1,159 @@
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.6;
+    margin: 0;
+    padding: 5% 15%;
+}
+
+body::before {
+  content: " ";
+  display: block;
+  position: fixed; /* Sayfa kaydıkça çizgiler sabit kalır, gerçek monitör hissi verir */
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  /* Çok ince yatay çizgiler oluşturur */
+  background: linear-gradient(
+    rgba(18, 16, 16, 0) 50%, 
+    rgba(0, 0, 0, 0.15) 50%
+  );
+  background-size: 100% 4px; /* Çizgilerin birbirine uzaklığı */
+  z-index: 9999; /* En üstte görünmesi için */
+  pointer-events: none; /* Altındaki butonlara tıklanabilmesini sağlar */
+  opacity: 0.5; /* Efektin şiddetini buradan ayarlayabilirsin */
+}
+
+h1 {
+    color: #ffffff;
+    border-bottom: 2px solid #00ffcc;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+h2, h3 {
+    color: #ffffff;
+}
+
+.btn {
+    display: inline-block;
+    background: #00ffcc;
+    color: #121212;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-right: 15px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #00b38f;
+}
+
+.profile-container {
+    float: right;
+}
+
+.profile-img {
+    width: 160px;
+    height: 160px;
+}
+
+#projects {
+    margin-top: 50px;
+}
+
+.project-card {
+    background: #1e1e1e;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 4px solid #00ffcc;
+    border-radius: 4px;
+}
+
+.tech-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+.tech-tag {
+    background-color: #f3f4f6;
+    color: #374151;
+    font-size: 0.85em;
+    font-weight: 600;
+    padding: 5px 12px;
+    border-radius: 6px;
+    border: 1px solid #d1d5db;
+    letter-spacing: 0.3px;
+}
+.tech-tag:hover{
+    color:#00ff00;
+    border-color: #00ffcc;
+    box-shadow:0 0 10px rgba(0,255,0,0.4);
+    text-shadow:
+	-2px 0 #ff00c1,
+	2px 0 #00fff9;
+    animation: glitch-anim 0.3s infinite;
+
+}
+
+@keyframes glitch-anim {
+   0% {transform: translate(0);}
+   20% {transform: translate(-1.5px,1.5px);}
+   40% {transform: translate(-1.5px,-1.5px);}
+   60% {transform: translate(-1.5px,1.5px);}
+   80% {transform: translate(-1.5px,-1.5px);}
+   100% {transform: translate(-1.5px,1.5px);}
+}
+
+/* --- MOBİL UYUM (RESPONSIVE) AYARLARI --- */
+
+
+@media screen and (max-width: 768px) {
+
+    .profile-container {
+        float: none;
+        display: flex;
+        justify-content: center; 
+        width: 100%;
+        margin-bottom: 15px; 
+    }
+        
+    body {
+        
+        
+        font-size: 16px;
+        
+        margin-bottom: 15px; 
+    }
+
+    h1 {
+        font-size: 2em; 
+        
+    }
+    header{
+        text-align: center;
+    }
+    .buttons-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+    
+    .buttons-container a {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+
+
+
