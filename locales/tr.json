@@ -1,0 +1,38 @@
+{
+  "name": "Safa Berberoğlu",
+  "title": "Bilgisayar Mühendisliği Öğrencisi",
+  "about": "Fiziksel dünya ile dijital dünya arasında köprüler kuran, çok yönlü bir geliştiriciyim. Projelerimde Mobil, Web ve IoT teknolojilerini dengeli bir şekilde harmanlıyorum. Bir gün mikrodenetleyicilerle donanım seviyesinde kod yazarken, ertesi gün modern mobil arayüzler tasarlıyor veya veritabanı mimarileri kurguluyorum. Sürekli öğrenmeye ve farklı platformlar arasında esnekçe geçiş yapmaya odaklıyım.",
+  "btn_cv": "📄 CV'mi İndir",
+  "btn_contact": "✉️ İletişime Geç",
+
+  "projects_heading": "Seçili Projeler & Çalışmalar",
+
+  "project_1_title": "NodeMCU Akıllı Kumanda",
+  "project_1_desc": "Flutter ile tasarladığım mobil uygulama üzerinden kullanıcıdan alınan komutların NodeMCU mikrodenetleyici kartı ile IR ledine gönderilerek IR sensörlü cihazın kontrolü. Ayrıca bu projede doğru sinyali elde ederek istediğin herhangi bir IR senörlü cihaza komut gönderebilirsin.",
+  "project_1_tag_1": "C++",
+  "project_1_tag_2": "NodeMCU",
+  "project_1_tag_3": "Flutter",
+  "project_1_tag_4": "IoT / Donanım",
+
+   "project_2_title": "Arduino & Bluetooth Araç Atölyesi",
+   "project_2_desc" : "80 kişilik bir gruba uygulamalı olarak verilen Arduino ile Bluetooth kontrollü araç geliştirme eğitimi.",
+   "project_2_tag_1": "Arduino",
+   "project_2_tag_2": "C++",
+   "project_2_tag_3": "Elektronik Devre Tasarımı",
+   "project_2_tag_4": "Eğitmenlik / Liderlik.",
+
+  "project_3_title": "Examify",
+  "project_3_desc": "Flutter çalışma ortamı üzerinde çalışan kullanıcıların sınav sonuçlarındaki değişimleri görebilecekleri, yapay zekaya soru sorabilecekleri, not alabilecekleri, hesap oluşturup istedikleri mobil cihazdan giriş yapbilecekleri bir sınava hazırlık mobil uygulaması.",
+  "project_3_tag_2": "Flutter",
+  "project_3_tag_3": "Dart",
+  "project_3_tag_4": "Firebase",
+  "project_4_tag_4": "API Integration",
+  "project_4_tag_5": "Llama",
+  "project_4_tag_6": "Mobil Uygulama Geliştirme",
+
+  "writing_heading": "Yazılarım & Makaleler",
+  "writing_1_title": "Arduino Nedir? Gömülü Sistemlere Yeni Başlayanlar İçin Anlaşılır Rehber",
+  "writing_1_desc": "Arduino’nun ne olduğu, nasıl çalıştığı ve neden gömülü sistemlere başlamak için en popüler platformlardan biri olduğunu bu yazıda basit ve anlaşılır şekilde anlattım.",
+  "writing_1_link": "🔗 Yazıma Git"
+
+}

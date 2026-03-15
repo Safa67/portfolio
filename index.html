@@ -3,109 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Safa Berberoğlu- Computer Engineering Portfolio</title>
+    <title>Safa Berberoğlu - Computer Engineering Portfolio</title>
     <link rel="icon" type="image/png" href="programmer.png">
     <link rel="stylesheet" href="style.css">
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7N4E5SL2SE"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-7N4E5SL2SE');
-</script>
-    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7N4E5SL2SE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-7N4E5SL2SE');
+    </script>
 </head>
 <body>
 
-    <header>
-        <div class="profile-container">
-    <img src="image.png" alt="safa" class="profile-img">
-</div>
-        
-        <h1>Safa Berberoğlu<span class="blinking-cursor">_</span></h1>
-        <h2>Bilgisayar Mühendisliği Öğrencisi</h2>
-<p>Fiziksel dünya ile dijital dünya arasında köprüler kuran, çok yönlü bir geliştiriciyim. Projelerimde Mobil, Web ve IoT teknolojilerini dengeli bir şekilde harmanlıyorum. Bir gün mikrodenetleyicilerle donanım seviyesinde kod yazarken, ertesi gün modern mobil arayüzler tasarlıyor veya veritabanı mimarileri kurguluyorum. Sürekli öğrenmeye ve farklı platformlar arasında esnekçe geçiş yapmaya odaklıyım.</p>
-        
-        <a href="Safa_Berberoglu_cv.pdf" download class="btn">📄 CV'mi İndir</a>
-        <a href="mailto:work@safaberberoglu.dev" class="btn">✉️ İletişime Geç</a>
-    </header>
+  <div class="lang-switcher">
+    <button onclick="changeLanguage('tr')" id="btn-tr" class="lang-btn">
+      <img src="https://flagcdn.com/w40/tr.png" alt="Türkçe">
+    </button>
+    <button onclick="changeLanguage('en')" id="btn-en" class="lang-btn">
+      <img src="https://flagcdn.com/w40/gb.png" alt="English">
+    </button>
+  </div>
 
-    <section id="projects">
-        <h2>Seçili Projeler & Çalışmalar</h2>
-        
-        <div class="project-card">
-            <h3>NodeMCU akıllı kumanda projesi</h3>
-            <p>Flutter ile tasarladığım mobil uygulama üzerinden kullanıcıdan alınan komutların NodeMCU mikrodenetleyici kartı ile IR ledine gönderilerek IR sensörlü cihazın kontrolü.
-            Ayrıca bu projede doğru sinyali elde ederek istediğin herhangi bir IR senörlü cihaza komut gönderebilirsin.
-            </p>
-           
-            <div class="tech-tags">
-                <span class="tech-tag">C++</span>
-                <span class="tech-tag">NodeMCU</span>
-                <span class="tech-tag">Flutter</span>
-                <span class="tech-tag">IoT / Donanım</span>
-            </div>
-            
-        </div>
+  <header>
+    <div class="profile-container">
+      <img src="image.png" alt="safa" class="profile-img">
+    </div>
+    
+    <h1>Safa Berberoğlu<span class="blinking-cursor">_</span></h1>
+    <h2 data-i18n="title">Bilgisayar Mühendisliği Öğrencisi</h2>
+    <p data-i18n="about">Fiziksel dünya ile dijital dünya arasında köprüler kuran, çok yönlü bir geliştiriciyim. Projelerimde Mobil, Web ve IoT teknolojilerini dengeli bir şekilde harmanlıyorum. Bir gün mikrodenetleyicilerle donanım seviyesinde kod yazarken, ertesi gün modern mobil arayüzler tasarlıyor veya veritabanı mimarileri kurguluyorum. Sürekli öğrenmeye ve farklı platformlar arasında esnekçe geçiş yapmaya odaklıyım.</p>
+    
+    <a href="Safa_Berberoglu_cv.pdf" download class="btn" data-i18n="btn_cv">📄 CV'mi İndir</a>
+    <a href="mailto:work@safaberberoglu.dev" class="btn" data-i18n="btn_contact">✉️ İletişime Geç</a>
+  </header>
 
-        <div class="project-card">
-            <h3>Arduino & Bluetooth Araç Atölyesi</h3>
-            <p>80 kişilik bir gruba uygulamalı olarak verilen Arduino ile Bluetooth kontrollü araç geliştirme eğitimi.</p>
-            
-            <div class="tech-tags">
-                <span class="tech-tag">Arduino</span>
-                 <span class="tech-tag">C++</span>
-                 <span class="tech-tag">Elektronik Devre Tasarımı</span>
-                 <span class="tech-tag">Eğitmenlik / Liderlik</span>
-            </div>
-            
-        </div>
+  <section id="projects">
+      <h2 data-i18n="projects_heading">Seçili Projeler & Çalışmalar</h2>
+      
+      <div class="project-card">
+          <h3 data-i18n="project_1_title">NodeMCU akıllı kumanda projesi</h3> 
+          <p data-i18n="project_1_desc">Flutter ile tasarladığım mobil uygulama üzerinden kullanıcıdan alınan komutların NodeMCU mikrodenetleyici kartı ile IR ledine gönderilerek IR sensörlü cihazın kontrolü. Ayrıca bu projede doğru sinyali elde ederek istediğin herhangi bir IR senörlü cihaza komut gönderebilirsin.</p>
+          <div class="tech-tags">
+              <span class="tech-tag" data-i18n="project_1_tag_1">C++</span>
+              <span class="tech-tag" data-i18n="project_1_tag_2">NodeMCU</span>
+              <span class="tech-tag" data-i18n="project_1_tag_3">Flutter</span>
+              <span class="tech-tag" data-i18n="project_1_tag_4">IoT / Donanım</span>
+          </div>
+      </div>
+
+      <div class="project-card">
+          <h3 data-i18n="project_2_title">Arduino & Bluetooth Araç Atölyesi</h3>
+          <p data-i18n="project_2_desc">80 kişilik bir gruba uygulamalı olarak verilen Arduino ile Bluetooth kontrollü araç geliştirme eğitimi.</p>
+          <div class="tech-tags">
+              <span class="tech-tag" data-i18n="project_2_tag_1">Arduino</span>
+               <span class="tech-tag" data-i18n="project_2_tag_2">C++</span>
+               <span class="tech-tag" data-i18n="project_2_tag_3">Elektronik Devre Tasarımı</span>
+               <span class="tech-tag" data-i18n="project_2_tag_4">Eğitmenlik / Liderlik</span>
+          </div>
+      </div>
+      
+      <div class="project-card">
+          <h3 data-i18n="project_3_title">Examify</h3>
+          <p data-i18n="project_3_desc">Flutter çalışma ortamı üzerinde çalışan kullanıcıların sınav sonuçlarındaki değişimleri görebilecekleri, yapay zekaya soru sorabilecekleri, not alabilecekleri, hesap oluşturup istedikleri mobil cihazdan giriş yapbilecekleri bir sınava hazırlık mobil uygulaması.</p>
+          <div class="tech-tags">
+              <span class="tech-tag" data-i18n="project_3_tag_1">Flutter</span>
+              <span class="tech-tag" data-i18n="project_3_tag_2">Dart</span>
+              <span class="tech-tag" data-i18n="project_3_tag_3">Firebase</span>
+              <span class="tech-tag" data-i18n="project_3_tag_4">API Integration</span>
+              <span class="tech-tag" data-i18n="project_3_tag_5">Llama</span>
+              <span class="tech-tag" data-i18n="project_3_tag_6">Mobil Uygulama Geliştirme</span>
+          </div>
+      </div>
+  </section>
+
+  <section id="articles">
+    <h2 data-i18n="writing_heading"> Yazılarım & Makaleler </h2>
+    
+    <div class="project-card">
+    <h3 data-i18n="writing_1_title">Arduino Nedir? Gömülü Sistemlere Yeni Başlayanlar İçin Anlaşılır Rehber</h3>
+    <p data-i18n="writing_1_desc">Arduino’nun ne olduğu, nasıl çalıştığı ve neden gömülü sistemlere başlamak için en popüler platformlardan biri olduğunu bu yazıda basit ve anlaşılır şekilde anlattım.</p>
+    <a href="https://medium.com/@safa.b6700/arduino-nedir-g%C3%B6m%C3%BCl%C3%BC-sistemlere-yeni-ba%C5%9Flayanlar-i%CC%87%C3%A7in-anla%C5%9F%C4%B1l%C4%B1r-rehber-a866250715fe" target="_blank" class="btn" data-i18n="writing_1_link">🔗 Yazıma Git</a>
+    </div>
+  </section>
+
+  <script>
+    async function loadLanguage(lang) {
+      document.querySelectorAll('.lang-btn').forEach(btn => {
+        btn.classList.remove('active');
+      });
+      
+      const activeBtn = document.getElementById('btn-' + lang);
+      if (activeBtn) {
+        activeBtn.classList.add('active');
+      }
+
+      try {
+        const response = await fetch(`locales/${lang}.json`);
+        const translations = await response.json();
         
-        <div class="project-card">
-            <h3>Examify</h3>
-            <p>Flutter çalışma ortamı üzerinde çalışan kullanıcıların sınav sonuçlarındaki değişimleri görebilecekleri, yapay zekaya soru sorabilecekleri, not alabilecekleri, hesap oluşturup istedikleri mobil cihazdan giriş yapbilecekleri bir sınava hazırlık mobil uygulaması.
-            </p>
-            <div class="tech-tags">
-                <span class="tech-tag">Flutter</span>
-                <span class="tech-tag">Dart</span>
-		<span class="tech-tag">Firebase</span>
-		<span class="tech-tag">API Integration</span>
-		<span class="tech-tag">Llama</span>
-                <span class="tech-tag">Mobil Uygulama Geliştirme</span>
-            </div>
-            
-        </div>
-    </section>
-	
-	<section id="articles">
-	<h2> Yazılarım & Makaleler </h2>
-	
-	<div class="project-card">
-	<h3>Arduino Nedir? Gömülü Sistemlere Yeni Başlayanlar İçin Anlaşılır Rehber</h3>
-	<pArduino’nun ne olduğu, nasıl çalıştığı ve neden gömülü sistemlere başlamak için en popüler platformlardan biri olduğunu bu yazıda basit ve anlaşılır şekilde anlattım.</p>
-	<a href="https://medium.com/@safa.b6700/arduino-nedir-g%C3%B6m%C3%BCl%C3%BC-sistemlere-yeni-ba%C5%9Flayanlar-i%CC%87%C3%A7in-anla%C5%9F%C4%B1l%C4%B1r-rehber-a866250715fe" target="_blank" class="btn">🔗 Yazıma Git</a>
-	</div>
-	
-	</section>
+        document.querySelectorAll('[data-i18n]').forEach(element => {
+          const key = element.getAttribute('data-i18n');
+          if (translations[key]) {
+            element.textContent = translations[key];
+          }
+        });
+        
+        localStorage.setItem('lang', lang);
+        document.documentElement.lang = lang;
+
+      } catch (error) {
+        console.error("Dil dosyası yüklenirken hata:", error);
+      }
+    }
+
+    function changeLanguage(lang) {
+      loadLanguage(lang);
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      const savedLang = localStorage.getItem('lang') || 'tr'; 
+      loadLanguage(savedLang); 
+    });
+  </script>
 
 </body>
-
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

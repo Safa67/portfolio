@@ -1,0 +1,37 @@
+{
+  "name": "Safa Berberoğlu",
+  "title": "Computer Engineering Student",
+  "about": "I am a versatile developer building bridges between the physical and digital worlds. In my projects, I maintain a balanced blend of Mobile, Web, and IoT technologies. One day I might be writing hardware-level code with microcontrollers, and the next day designing modern mobile interfaces or building database architectures. I am focused on continuous learning and flexibly transitioning between different platforms.",
+  "btn_cv": "📄 Download My CV",
+  "btn_contact": "✉️ Contact Me",
+
+  "projects_heading": "Selected Projects & Works",
+
+  "project_1_title": "NodeMCU Smart Remote",
+  "project_1_desc": "Controlling an IR sensor device by sending user commands from a mobile app I designed with Flutter to an IR LED via a NodeMCU microcontroller board. Additionally, by obtaining the correct signal in this project, you can send commands to any IR sensor device you want.",
+  "project_1_tag_1": "C++",
+  "project_1_tag_2": "NodeMCU",
+  "project_1_tag_3": "Flutter",
+  "project_1_tag_4": "IoT / Hardware",
+
+   "project_2_title": "Arduino & Bluetooth Car Workshop",
+   "project_2_desc" : "A hands-on Arduino and Bluetooth-controlled car development training provided to a group of 80 people.",
+   "project_2_tag_1": "Arduino",
+   "project_2_tag_2": "C++",
+   "project_2_tag_3": "Electronic Circuit Design",
+   "project_2_tag_4": "Teaching / Leadership.",
+
+  "project_3_title": "Examify",
+  "project_3_desc": "An exam preparation mobile application running on the Flutter framework, where users can track changes in their exam results, ask questions to AI, take notes, create an account, and log in from any mobile device they want.",
+  "project_3_tag_2": "Dart",
+  "project_3_tag_3": "Flutter",
+  "project_3_tag_4": "Firebase",
+  "project_4_tag_4": "API Integration",
+  "project_4_tag_5": "Llama",
+  "project_4_tag_6": "Mobile App Development",
+
+  "writing_heading": "Articles & Publications",
+  "writing_1_title": "What is Arduino? A Clear Guide for Beginners in Embedded Systems",
+  "writing_1_desc": "In this article, I explained simply and clearly what Arduino is, how it works, and why it is one of the most popular platforms to start with embedded systems.",
+  "writing_1_link": "🔗 Read Article"
+}
